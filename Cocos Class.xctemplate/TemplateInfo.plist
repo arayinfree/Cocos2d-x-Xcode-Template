@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>My Cocos Class</string>
+	<key>Description</key>
+	<string>A Cocos class.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>Default</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Identifier</key>
+			<string>cocosSubclass</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>class</string>
+			<key>Values</key>
+			<array>
+				<string>Default</string>
+				<string>Node</string>
+				<string>Scene</string>
+				<string>Sprite</string>
+				<string>Layer</string>
+			</array>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<string>7</string>
+	<key>Summary</key>
+	<string>A Cocos class</string>
+</dict>
+</plist>
