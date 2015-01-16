@@ -1,6 +1,6 @@
 # Cocos2d-x-Xcode-Template
 
-Basic template for creating a plugin for Xcode 6+.
+Basic template for creating a cocos2d-x class
 
 #Installation
  clone project and copy folder ' cocos ' into /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/ 
