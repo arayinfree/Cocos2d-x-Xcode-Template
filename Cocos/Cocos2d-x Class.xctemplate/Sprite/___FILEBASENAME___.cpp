@@ -6,7 +6,7 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAME___.h"
+#include "___FILEBASENAME___.h"
 
 USING_NS_CC;
 

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>My Cocos Class</string>
+	<string>My Cocos2d-x Class</string>
 	<key>Description</key>
-	<string>A Cocos class.</string>
+	<string>A Cocos2d-x class</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>Options</key>
@@ -25,10 +25,10 @@
 			<string>text</string>
 		</dict>
 		<dict>
-			<key>Default</key>
-			<string>Default</string>
 			<key>Description</key>
-			<string>What class to subclass in the new file</string>
+			<string>What cocos class to subclass in the new file</string>
+			<key>Default</key>
+			<string>Custom</string>
 			<key>Identifier</key>
 			<string>cocosSubclass</string>
 			<key>Name</key>
@@ -36,20 +36,41 @@
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
-			<string>class</string>
+			<string>popup</string>
 			<key>Values</key>
 			<array>
-				<string>Default</string>
+				<string>Custom</string>
 				<string>Node</string>
 				<string>Scene</string>
 				<string>Sprite</string>
 				<string>Layer</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string></string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Identifier</key>
+			<string>customSubclass</string>
+			<key>Name</key>
+			<string>Custom Subclass of:</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocosSubclass</key>
+				<array>
+					<string>Custom</string>
+				</array>
+			</dict>
+			<key>Type</key>
+			<string>class</string>
+		</dict>
 	</array>
 	<key>SortOrder</key>
 	<string>7</string>
 	<key>Summary</key>
-	<string>A Cocos class</string>
+	<string>A Cocos2d-x class</string>
 </dict>
 </plist>
