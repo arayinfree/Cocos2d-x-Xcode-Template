@@ -3,7 +3,7 @@
 Basic template for creating a plugin for Xcode 6+.
 
 #Installation
-clone project and copy folder into xcode
-
+ clone project and copy folder ' cocos ' into /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/ 
+ 复制 cocos 目录 到 /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\
 #Note
-Compiling the template with Swift requires Xcode 6.1 or greater.
+ the template  test on Xcode 6.1
